@@ -10,7 +10,7 @@ monImage.onclick = function() {
  var monBouton = document.querySelector('button');
  var monTitre = document.querySelector('h1');
  function definirNomUtilisateur() {
-	 var monNom = prompt('JEAN BLANCHARD BOMOUA');
+	 var monNom = prompt('Bienvenue chez JEAN BLANCHARD BOMOUA');
 	 localStorage.setItem('nom', monNom );
 	 monTitre.textContent = 'Changeons notre vie, ' + monNom; 
  }
